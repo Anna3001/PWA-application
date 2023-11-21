@@ -1,0 +1,11 @@
+{
+  "endpoints":
+    {
+        "getByID": "/api/getMovieByID/:id",
+        "getAll": "/api/getAllMovies",
+        "getByTitleDirector": "/api/getByTD/:title/:director",
+        "updateByID": "/api/updateMovieByID/:id",
+        "deleteByID": "/api/deleteMovieByID/:id",
+        "createMovie": "/api/createMovie"
+    }
+}

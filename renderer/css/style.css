@@ -1,0 +1,123 @@
+/* Add your CSS styles for improved visual appearance here */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.part-a {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  background-color: #E6E6FA;
+}
+
+.part-b {
+  flex: 2;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  background-color: #E6E6FA;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+}
+
+i {
+  margin-left: 10px;
+  color: #007BFF;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label, input {
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 3px 6px;
+}
+
+button {
+  background-color: #4B0082;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #808080;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+.section-test {
+  display: flex;
+  flex-direction: column;
+   /* Centruje zawartość w pionie */
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#get-single-movie-form {
+  flex: 1;
+}
+
+#get-movie-TD {
+  flex: 1;
+}
+
+#single-movie-details {
+  flex: 1;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.buttonX {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
